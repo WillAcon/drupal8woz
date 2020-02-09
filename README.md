@@ -4,12 +4,12 @@
 1. Download this theme into your `themes/custom` directory. You could do a git clone as well but that probably doesn't make much sense. Extract the archive and rename the directory to whatever you wish.
 
 ```bash
-$ wget https://github.com/willacon/drupal-8-webpack/archive/master.zip
+$ wget https://github.com/willacon/drupal8woz/archive/master.zip
 $ unzip master.zip
-$ mv drupal-8-webpack mytheme
+$ mv drupal8woz mytheme
 ```
 
-2. Next, rename various instances of `THEMENAME` in filenames and config files to match your theme name (e.g. `mytheme`). You may also use a script for that purpose.
+2. Next, rename various instances of `DRUPAL8WOZ` in filenames and config files to match your theme name (e.g. `mytheme`). You may also use a script for that purpose.
 
 ```bash
 $ cd mytheme

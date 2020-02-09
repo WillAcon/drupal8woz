@@ -4,7 +4,7 @@
 1. Download this theme into your `themes/custom` directory. You could do a git clone as well but that probably doesn't make much sense. Extract the archive and rename the directory to whatever you wish.
 
 ```bash
-$ wget https://github.com/willacon/drupal8woz/archive/master.zip
+$ wget https://github.com/WillAcon/drupal8woz/archive/master.zip
 $ unzip master.zip
 $ mv drupal8woz mytheme
 ```

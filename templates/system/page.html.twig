@@ -1,0 +1,15 @@
+{% block slider %}
+  {% if page.slider %}
+  <section class="lr-global fondo-inicial">
+        {{ page.slider }}
+    </section>
+  {% endif %}
+{% endblock slider %}
+
+{% block main_content %}
+     <div class="main-content">
+        <div class="container">
+        {{ page.content }}
+        </div>  
+      </div>
+{% endblock main_content %}

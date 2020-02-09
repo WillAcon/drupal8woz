@@ -1,0 +1,25 @@
+    <header class="lr-global header-abad">
+        <section class="header-container">
+            <div class="blockv3-container aux-header">
+                <div class="logo-inicial">
+                    <a class="enlace-logo" href="/">
+                        <img class="logo-img" src="/{{ directory }}/logo.png" />
+                    </a>
+                    <h1 class="logo-title">
+                         Sitio
+                    </h1>
+                </div>
+                <div class="fm-fondo-general "></div>
+                <nav class="content-nav">
+                {% if page.primary_menu %}
+                    {{ page.primary_menu }}
+                {% endif %}
+                </nav>
+    
+                <div class="content-navicon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+        </section>
+    </header>
+   

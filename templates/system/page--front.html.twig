@@ -1,0 +1,16 @@
+{% block slider %}
+{% if page.slider %}
+ <section class="lr-global slider">
+      {{ page.slider }}
+  </section>
+{% endif %}
+{% endblock slider %}
+
+{% block full_top_content %}
+{% if page.full_top_content %}
+
+  <section class="lr-global">
+   {{ page.full_top_content }}
+  </section>
+{% endif %}
+{% endblock full_top_content %}

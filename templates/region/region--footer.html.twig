@@ -1,0 +1,9 @@
+{% extends "@stable/layout/region.html.twig" %}
+{%
+  set classes = [
+    'columns',
+    'is-multiline',
+    'is-mobile'
+  ]
+%}
+{% set attributes = attributes.addClass(classes) %}

@@ -1,0 +1,10 @@
+framework:
+  version: VERSION
+  css:
+    theme:
+      build/common.css: {}
+  js:
+    build/common.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

@@ -2,7 +2,7 @@ core: 8.x
 type: theme
 
 name: 'Drupal8 WOZ'
-description: 'A Drupal 8 theme with sass'
+description: 'This is a template for drupal using webpack'
 package: 'WOZ'
 
 regions:

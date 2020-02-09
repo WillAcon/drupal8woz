@@ -1,7 +1,7 @@
 {
   "name": "webpack-d8",
   "version": "0.0.1",
-  "description": "This is a template for using webpack with drupal",
+  "description": "This is a template for drupal using webpack",
   "main": "index.js",
   "directories": {
     "doc": "docs"

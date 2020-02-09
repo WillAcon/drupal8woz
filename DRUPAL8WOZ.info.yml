@@ -1,13 +1,12 @@
 core: 8.x
 type: theme
 
-name: 'THEMETITLE'
-description: 'A Drupal Bootstrap 3 based sub-theme.'
-package: 'Bootstrap'
+name: 'Drupal8 WOZ'
+description: 'A Drupal 8 theme with sass'
+package: 'WOZ'
 
 regions:
   navigation: 'Navigation'
-  navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
@@ -19,4 +18,4 @@ regions:
   page_bottom: 'Page bottom'
 
 libraries:
-  - canadaperu/framework
+  - DRUPAL8WOZ/framework

@@ -5,14 +5,14 @@ if [ "$1" == "" ]; then
     exit 1;
 fi
 
-sed -i "s/drupal8woz/$1/g" config/schema/drupal8woz.schema.yml
-sed -i "s/drupal8woz/$1/g" drupal8woz.starterkit.yml
+sed -i "s/DRUPAL8WOZ/$1/g" config/schema/DRUPAL8WOZ.schema.yml
+sed -i "s/DRUPAL8WOZ/$1/g" DRUPAL8WOZ.starterkit.yml
 
-mv drupal8woz.libraries.yml $1.libraries.yml
-mv drupal8woz.starterkit.yml $1.info.yml
-mv drupal8woz.theme $1.theme
+mv DRUPAL8WOZ.libraries.yml $1.libraries.yml
+mv DRUPAL8WOZ.starterkit.yml $1.info.yml
+mv DRUPAL8WOZ.theme $1.theme
 
-mv config/install/drupal8woz.settings.yml config/install/$1.settings.yml
-mv config/schema/drupal8woz.schema.yml config/schema/$1.schema.yml
+mv config/install/DRUPAL8WOZ.settings.yml config/install/$1.settings.yml
+mv config/schema/DRUPAL8WOZ.schema.yml config/schema/$1.schema.yml
 
 rm $0

@@ -1,0 +1,14 @@
+body{
+    @include media(xs) {
+        background-color: $primary-red;
+    }
+    @include media(sm) {
+        background-color: $primary-grey;
+    }
+    @include media(md) {
+        background-color: green;
+    }
+    @include media(lg) {
+        background-color: yellow;
+    }
+}
